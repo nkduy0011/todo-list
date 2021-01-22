@@ -1,0 +1,48 @@
+.CurrentItem {
+    position: relative;
+    padding: 1rem;
+    font-size: 1.5vw;
+    color: #757575;
+    display: flex;
+}
+.CurrentItem .item-left {
+    margin-right: 1.5rem;
+}
+.CurrentItem .item-left span{
+    color: #555;
+    font-weight: 700;
+}
+.CurrentItem .current-state {
+    display: flex;
+}
+.CurrentItem .current-state > div {
+    margin-right: 0.5rem;
+    padding: 0.1rem 0.5rem;
+} 
+.CurrentItem .current-state .active {
+    border: 0.1rem solid rgb(0 0 0 / 30%);
+    border-radius: 0.2rem;
+    padding: 0 0.4rem;
+}
+.CurrentItem::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 48vw;
+    height: 1px;
+    background-color: #fff;
+    border: 0.1rem solid rgb(0 0 0 / 30%);
+    bottom: -5px;
+    left: 1vw;
+} 
+.CurrentItem::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 46vw;
+    height: 1px;
+    background-color: #fff;
+    border: 0.1rem solid rgb(0 0 0 / 30%);
+    bottom: -8px;
+    left: 2vw;
+} 

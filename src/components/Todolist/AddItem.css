@@ -1,0 +1,18 @@
+.AddItem {
+    border-bottom: 1.5px solid rgb(0 0 0 / 30%);
+    display: flex;
+    padding: 1rem;
+}
+.AddItem .iconcheckAll {
+    margin-right: 1rem;
+    opacity: 0.2;
+}
+.AddItem .iconcheckAll.checkAllactive,.AddItem .iconcheckAll:hover{
+    opacity:0.5;
+}
+.AddItem .item-add{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 2.5vw;
+}

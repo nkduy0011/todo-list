@@ -1,0 +1,19 @@
+.Todolist {
+    font-family: sans-serif;
+    font-size: 3vw;
+}
+.Todolist .title {
+    font-size: 8vw;
+    font-weight: 500;
+    color: rgb(255 126 126 / 50%);
+
+}
+.Todolist .TodoTable {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50vw;
+    border: 1.5px solid rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 10%);
+    text-align: left;
+}

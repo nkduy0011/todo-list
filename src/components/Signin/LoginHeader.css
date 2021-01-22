@@ -1,0 +1,17 @@
+.LoginHeader{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.LoginHeader .Header-goback,.LoginHeader .Header-button{
+    text-decoration: none;
+    color:#555555;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.LoginHeader .Header-button{
+    border: 0.1rem solid #555555;
+    box-sizing: border-box;
+    padding: 0.2rem 1rem;
+}

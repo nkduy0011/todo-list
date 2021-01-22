@@ -1,0 +1,36 @@
+.ListItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid rgb(0 0 0 / 30%);
+    padding: 1rem;
+}
+.ListItem .icon-check{
+    font-size: 3vw;
+    margin-right: 1rem;
+    opacity: 0.1;
+}
+.ListItem .icon-checked{
+    font-size: 3vw;
+    margin-right: 1rem;
+    opacity: 0.5;
+}
+.ListItem .icon-check:hover {
+    opacity: 0.5;
+}
+.ListItem .icon-del{
+    position: absolute;
+    font-size: 2vw;
+    opacity: 0.2;
+    right: 1rem;
+}
+.ListItem .icon-del:hover {
+    opacity: 0.5;
+}
+.ListItem .item {
+    display: inline;
+}
+.ListItem .item.active{
+    text-decoration: line-through;
+    opacity: 0.1;
+}

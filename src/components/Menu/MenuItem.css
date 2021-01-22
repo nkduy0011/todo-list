@@ -1,0 +1,22 @@
+.MenuItem{
+    background-color: rgba(221, 221,221,.5);
+    color: #8e8e8e;
+    width: 227px;
+    height: 134,01px;
+    padding: 4.5rem;
+    box-sizing: border-box;
+}
+.MenuItem .MenuItem-icon{
+    font-size: 3rem;
+}
+.MenuItem .MenuItem-title{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.MenuItem-active {
+    background-color: #FFF;
+    color: #8CDC52;
+    box-shadow: rgba(0,0,0,.3) 0px 2px 5px 1px ;
+    border-top: 2px solid #8CDC52;
+    box-sizing: border-box;
+}
