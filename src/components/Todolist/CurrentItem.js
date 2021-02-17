@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import PropTypes from 'prop-types';
 import './CurrentItem.css';
 import classNames from 'classnames/bind';
 class CurrentItem extends Component {
@@ -22,6 +24,13 @@ class CurrentItem extends Component {
         );
     }
 }
+CurrentItem.propTypes = {
+    itemLeft: PropTypes.number.isRequired,
+    allItem: PropTypes.number.isRequired,
+    currentFilter: PropTypes.string.isRequired,
+    onClick: PropTypes.func,
+    onDelComplated: PropTypes.func
+}
 class CurrentState extends Component {
     render(){
         const{text, currentFilter,onClick}=this.props;
@@ -37,6 +46,12 @@ class CurrentState extends Component {
                 </div>
         );
     }
+}
+
+CurrentState.propTypes = {
+    text: PropTypes.string.isRequired,
+    currentFilter: PropTypes.string.isRequired,
+    onClick: PropTypes.func
 }
 
 export default CurrentItem

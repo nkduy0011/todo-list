@@ -6,6 +6,7 @@ import Todolist from './components/Todolist/Todolist'
 // import LoginHeader from './components/Signin/LoginHeader';
 // import LoginForm from './components/Signin/LoginForm';
 //import Ex from './components/ex/ex';
+// import CompleteReport from './components/complete-report/CompleteReport'
 class App extends Component {
   render(){
     return (

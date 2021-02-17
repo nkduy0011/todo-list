@@ -1,0 +1,67 @@
+.CompleteReport .Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #BABABA;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.CompleteReport .Header .Header-btn {
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+.CompleteReport .Header .Header-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color:#444054;
+}
+.CompleteReport .Body {
+    display: flex;
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.CompleteReport .Body > div {
+    margin-right: 200px;
+}
+.CompleteReport .Item {
+    display: flex;
+    align-items: center;
+}
+.CompleteReport .Item > div {
+    margin-left:20px;
+}
+.CompleteReport .Item .Item-circle {
+    width: 4rem;
+    height: 4rem;
+    background-color: #F7B924;
+    border-radius: 50%;
+}
+.CompleteReport .Item .Item-content{
+    text-align: left;
+    width: 9rem;
+}
+.CompleteReport .Item .Item-content .Item-content-title {
+    font-size: 0.8rem;
+}
+.CompleteReport .Item .Item-content .Item-content-value {
+    font-size: 3rem;
+}
+.CompleteReport .Item .Item-content .Item-content-earning {
+    font-size: 0.8rem;
+}
+.CompleteReport .Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+.CompleteReport .Footer .Footer-btn {
+    width: 250px;
+    line-height: 40px;
+    background-color: #3F6AD8;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+}

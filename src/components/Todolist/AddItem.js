@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './AddItem.css';
 import classNames from 'classnames/bind';
@@ -46,5 +48,11 @@ class AddItem extends Component{
     );
 }
 } 
+
+AddItem.propTypes = {
+    onAdd: PropTypes.func,
+    onClick: PropTypes.func,
+    checkAll: PropTypes.bool
+}
 
 export default AddItem

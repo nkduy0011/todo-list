@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './ListItem.css';
 import classNames from 'classnames/bind';
@@ -16,6 +18,15 @@ class ListItem extends Component {
             </div>
         );
     }
+}
+
+ListItem.propTypes = {
+    item: PropTypes.shape({
+        item: PropTypes.string.isRequired,
+        active: PropTypes.bool.isRequired
+    }),
+    onClick: PropTypes.func,
+    onDel: PropTypes.func
 }
 
 export default ListItem
