@@ -9,18 +9,6 @@ class Todolist extends Component {
         this.state = {
             currentFilter: "All",
             toDoItem : [
-                {
-                    item: "an",
-                    active: false
-                },
-                {
-                    item: "choi",
-                    active: false
-                },
-                {
-                    item: "ngu",
-                    active: false
-                }
             ],
             checkall: false,
             itemLeft: 3
